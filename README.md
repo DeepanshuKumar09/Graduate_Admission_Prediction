@@ -8,7 +8,7 @@
 
 **A deep learning-powered tool to estimate graduate admission probability.**
 
-[View Demo](#) · [Report Bug](#) · [Request Feature](#)
+[View Demo](https://graduateadmissionprediction.streamlit.app) · [Report Bug](#) · [Request Feature](#)
 
 </div>
 
