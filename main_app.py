@@ -6,8 +6,8 @@ import numpy as np
 st.title('Graduate Admission Chance Predictor')
 
 # Load the trained model and scaler
-model = tf.keras.models.load_model('C:/Users/HP/Downloads/graduate_admission/keras_model.keras')
-scaler = joblib.load('C:/Users/HP/Downloads/graduate_admission/minmax_scaler.pkl')
+model = tf.keras.models.load_model('keras_model.keras')
+scaler = joblib.load('minmax_scaler.pkl')
 
 st.write("Model and scaler loaded successfully!")
 
@@ -35,3 +35,4 @@ if st.button('Predict Chance of Admit'):
 
     st.subheader('Prediction:')
     st.write(f'Predicted Chance of Admit: {prediction:.2f}')
+
